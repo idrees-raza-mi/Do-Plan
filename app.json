@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "ToDo App",
+    "slug": "todo-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#8B5CF6"
+      }
+    },
+  }
+}
