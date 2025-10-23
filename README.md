@@ -6,6 +6,28 @@
 
 A sleek and modern React Native To-Do List application built with Expo, featuring a beautiful dark/light theme design. The app includes comprehensive task management, habit tracking, calendar integration, and progress visualization with smooth animations.
 
+## 📸 Screenshots
+
+### Home Page
+![Home Page](https://github.com/idrees-raza-mi/Do-Plan/blob/main/To%20Do%20ss/homepage.png)
+*Main tasks screen with progress indicators and task list*
+
+### Habits Page
+![Habits Page](TO%20Do%20ss/habit.png)
+*Habit categories with progress rings and weekly calendar*
+
+### Habit Detail Page
+![Habit Detail](TO%20Do%20ss/habitdetail.png)
+*Individual habit view with specific tasks and progress tracking*
+
+### Calendar Page
+![Calendar](TO%20Do%20ss/calender.png)
+*Monthly calendar with task completion indicators*
+
+### Profile Page
+![Profile](TO%20Do%20ss/profile.png)
+*User profile with settings and dark mode toggle*
+
 ### ✨ Key Features
 
 - **🏠 Home Screen**: Display tasks with categories, completion status, and progress tracking
@@ -82,27 +104,6 @@ src/
 └── ...
 ```
 
-## 📸 Screenshots
-
-### Home Page
-![Home Page](TO%20Do%20ss/homepage.png)
-*Main tasks screen with progress indicators and task list*
-
-### Habits Page
-![Habits Page](TO%20Do%20ss/habit.png)
-*Habit categories with progress rings and weekly calendar*
-
-### Habit Detail Page
-![Habit Detail](TO%20Do%20ss/habitdetail.png)
-*Individual habit view with specific tasks and progress tracking*
-
-### Calendar Page
-![Calendar](TO%20Do%20ss/calender.png)
-*Monthly calendar with task completion indicators*
-
-### Profile Page
-![Profile](TO%20Do%20ss/profile.png)
-*User profile with settings and dark mode toggle*
 
 ## 🎯 Features in Detail
 
