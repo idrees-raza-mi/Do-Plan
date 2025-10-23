@@ -21,10 +21,10 @@ const HabitCard = ({ habit, onPress }) => {
 
   const getHabitIconColor = (title) => {
     const colorMap = {
-      'Meditation': '#06B6D4',
-      'Drink water': '#3B82F6',
-      'Sleep 8 hours daily': '#1E40AF',
-      'Gym workouts': '#3B82F6',
+      'Meditation': '#8B5CF6',
+      'Drink water': '#A78BFA',
+      'Sleep 8 hours daily': '#7C3AED',
+      'Gym workouts': '#9333EA',
     };
     return colorMap[title] || theme.colors.primary;
   };

@@ -25,11 +25,11 @@ const TaskItem = ({ task }) => {
 
   const getCategoryColor = (category) => {
     const colors = {
-      'Personal': '#3B82F6',
-      'Work': '#10B981',
+      'Personal': '#A78BFA',
+      'Work': '#7C3AED',
       'Education': '#8B5CF6',
-      'Sport': '#F59E0B',
-      'Health': '#EF4444',
+      'Sport': '#9333EA',
+      'Health': '#6D28D9',
     };
     return colors[category] || '#6B7280';
   };

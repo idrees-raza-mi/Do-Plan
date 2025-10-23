@@ -20,16 +20,16 @@ const AddHabitModal = ({ visible, onClose }) => {
   const [title, setTitle] = useState('');
   const [category, setCategory] = useState('Health');
   const [icon, setIcon] = useState('heart');
-  const [color, setColor] = useState('#EF4444');
+  const [color, setColor] = useState('#8B5CF6');
   const slideAnim = useRef(new Animated.Value(0)).current;
 
   const categories = [
-    { name: 'Health', icon: 'heart', color: '#EF4444' },
-    { name: 'Fitness', icon: 'fitness', color: '#10B981' },
-    { name: 'Education', icon: 'book', color: '#8B5CF6' },
-    { name: 'Mindfulness', icon: 'leaf', color: '#06B6D4' },
-    { name: 'Work', icon: 'briefcase', color: '#F59E0B' },
-    { name: 'Personal', icon: 'person', color: '#EC4899' },
+    { name: 'Health', icon: 'heart', color: '#8B5CF6' },
+    { name: 'Fitness', icon: 'fitness', color: '#A78BFA' },
+    { name: 'Education', icon: 'book', color: '#7C3AED' },
+    { name: 'Mindfulness', icon: 'leaf', color: '#9333EA' },
+    { name: 'Work', icon: 'briefcase', color: '#6D28D9' },
+    { name: 'Personal', icon: 'person', color: '#5B21B6' },
   ];
 
   React.useEffect(() => {
@@ -60,7 +60,7 @@ const AddHabitModal = ({ visible, onClose }) => {
       setTitle('');
       setCategory('Health');
       setIcon('heart');
-      setColor('#EF4444');
+      setColor('#8B5CF6');
       onClose();
     }
   };
